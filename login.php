@@ -11,7 +11,8 @@ require_once 'modelos/Usuario.php';
 $conexion = conexion();
 // si no hay conexion a la base de datos
 if (!$conexion) {
-    header('Location: error.php');
+    echo "Error al conectar a la base de datos";
+    die();
 }
 
 // si el usuario envia el formulario de login
