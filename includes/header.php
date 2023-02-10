@@ -1,7 +1,7 @@
 <header class="main-header">
     <a href="#" class="logo">
         <span class="logo-mini"><b>IT</b></span>
-        <span class="logo-lg"><b>IT PROYECTO</b></span>
+        <span class="logo-lg"><b><?= TITLE ?></b></span>
     </a>
     <nav class="navbar navbar-static-top" role="navigation">
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">

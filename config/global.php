@@ -6,7 +6,7 @@ define("DB_PASSWORD", "");
 define("DB_ENCODE", "utf8");
 
 //PARAMETROS DE LA PAGINA
-define("TITLE", "ADVENTAS");
+define("TITLE", "IT PROYECTO");
 define("BASE_URL", getBaseUrl());
 
 function getBaseUrl()
